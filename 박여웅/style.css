@@ -1,0 +1,102 @@
+/* Reset styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Base styles */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Header styles */
+
+header {
+	background-color: #f2f2f2;
+	padding: 1rem;
+}
+
+header h1 {
+	font-size: 2rem;
+	margin-right: 1rem;
+	display: inline-block;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav a {
+	padding: 0.5rem;
+}
+
+/* Main styles */
+
+main {
+	padding: 2rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 1rem;
+}
+
+li h3 {
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+}
+
+li p {
+	margin-bottom: 1rem;
+}
+
+/* Footer styles */
+
+footer {
+	background-color: #f2f2f2;
+	padding: 1rem;
+	text-align: center;
+	margin-top: 2rem;
+}
